@@ -40,7 +40,7 @@ img {
   margin: auto;
 }
 .nav__ref a:hover{
-    color: blue;
+    color:  cadetblue;
 }
 @media (max-width:800px){
     .nav{
@@ -79,6 +79,8 @@ img {
 }
 .text-full__icon{
     margin: 117px auto 34px;
+    display: flex;
+    justify-content: center;
 }
 .text-full__h{
     margin:0 auto;
@@ -351,4 +353,38 @@ img {
     .footer__text{
         font-size: 12px;
     }
+}
+/* Слайдер */
+.slick-dots{
+    display: flex;
+    font-size: 0;
+    justify-content: center;
+}
+.slick-dots button{
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #64C29E;
+    border-radius: 50%;
+    margin:20px 5px ;
+    border: none;
+    color: transparent;
+}
+.slick-dots button:focus{
+    outline: none;
+}
+.slick-dots li{
+    list-style: none;
+}
+.slick-active button{
+    background-color: #fff;
+    border: 2px solid #64C29E;
+}
+.text-full:focus{
+    outline: none;
+}
+.slider__icon{
+    margin: 70px auto 34px;
+    display: flex;
+    justify-content: center;
 }
