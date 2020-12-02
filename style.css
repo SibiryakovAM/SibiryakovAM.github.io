@@ -388,3 +388,6 @@ img {
     display: flex;
     justify-content: center;
 }
+.slider .text-full{
+    background-color: #FFFFFF;
+}
